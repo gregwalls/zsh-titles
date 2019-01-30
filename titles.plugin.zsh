@@ -23,7 +23,8 @@ function update_title() {
 
 # called just before the prompt is printed
 function _zsh_title__precmd() {
-  update_title "zsh" "%20<...<%~"
+  # update_title "zsh" "%20<...<%~"
+  update_title "" "%20<...<%~"
 }
 
 # called just before a command is executed
